@@ -9,9 +9,6 @@ body {
 .header {
     width: 100%;
     max-width: 1220px;
-    margin-top: 92px;
-    margin-left: 51px;
-    margin-right: 49px;
 }
 .header__inner {
     color: #000;
@@ -27,4 +24,51 @@ body {
 .header__about {
     width: 240px;
     line-height: 24.3px;
+}
+/* intro */
+.intro {
+    background: url("/first-project/images/lotus-flower.png") center no-repeat;
+    width: 100%;
+}
+.intro__inner {
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+.subline__text {
+    display: flex;
+}
+/* main */
+.main {
+    color:#000;
+
+}
+.main__content {
+    display: flex;
+    color: ;
+}
+.main__content__1 {
+    background: url("/first-project/images/photo_1.jpg") center no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.main__content__2 {
+    background: url("/first-project/images/photo_2.jpg") center no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.main__content__3 {
+    background: url("/first-project/images/photo_3.jpg") center no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+/* saction */
+
+/* footer */
+.footer_inner {
+    color: #000;
+    font-size: 18px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
 }
