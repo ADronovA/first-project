@@ -1,0 +1,30 @@
+body {
+    background-color: #FFF;
+    color: #FFF;
+    font-family: 'raleway';
+    font-style: normal;
+    font-weight: 400;
+}
+/* header */
+.header {
+    width: 100%;
+    max-width: 1220px;
+    margin-top: 92px;
+    margin-left: 51px;
+    margin-right: 49px;
+}
+.header__inner {
+    color: #000;
+    font-size: 18px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.nav {
+    margin-top: 43px;
+    margin-bottom: 45px;
+}
+.header__about {
+    width: 240px;
+    line-height: 24.3px;
+}
